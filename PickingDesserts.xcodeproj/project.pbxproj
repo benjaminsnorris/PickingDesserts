@@ -19,6 +19,7 @@
 		7116F75319410931006C8F06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F73B19410930006C8F06 /* UIKit.framework */; };
 		7116F75B19410931006C8F06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7116F75919410931006C8F06 /* InfoPlist.strings */; };
 		7116F75D19410931006C8F06 /* PickingDessertsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116F75C19410931006C8F06 /* PickingDessertsTests.m */; };
+		E7ACCFAF19D71E7600805374 /* PDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ACCFAE19D71E7600805374 /* PDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		7116F75819410931006C8F06 /* PickingDessertsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PickingDessertsTests-Info.plist"; sourceTree = "<group>"; };
 		7116F75A19410931006C8F06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7116F75C19410931006C8F06 /* PickingDessertsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickingDessertsTests.m; sourceTree = "<group>"; };
+		E7ACCFAD19D71E7600805374 /* PDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDViewController.h; sourceTree = "<group>"; };
+		E7ACCFAE19D71E7600805374 /* PDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				7116F74619410930006C8F06 /* PDAppDelegate.h */,
 				7116F74719410930006C8F06 /* PDAppDelegate.m */,
+				E7ACCFAD19D71E7600805374 /* PDViewController.h */,
+				E7ACCFAE19D71E7600805374 /* PDViewController.m */,
 				7116F74919410930006C8F06 /* Images.xcassets */,
 				7116F73E19410930006C8F06 /* Supporting Files */,
 			);
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7116F74819410930006C8F06 /* PDAppDelegate.m in Sources */,
+				E7ACCFAF19D71E7600805374 /* PDViewController.m in Sources */,
 				7116F74419410930006C8F06 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +444,7 @@
 				7116F76219410931006C8F06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7116F76319410931006C8F06 /* Build configuration list for PBXNativeTarget "PickingDessertsTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +453,7 @@
 				7116F76519410931006C8F06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
